@@ -5,7 +5,8 @@
         "img_Proyect": "tubachi.webp",
         "type": "Informative Website",
         "finish": false,
-        "url": "https://tubachi.com"
+        "url": "https://tubachi.com",
+        "descripcion": "Página creada desde cero utilizando WordPress y Elementor, sin el uso de plantillas. Se diseñó el logo, tipografía y colores, estableciendo una identidad visual única."
     },
     {
         "id":1,
@@ -13,7 +14,8 @@
         "img_Proyect": "dilo-club.webp",
         "type": "Informative website",
         "finish": false,
-        "url": "https://dilo.club"
+        "url": "https://dilo.club",
+        "descripcion": "Sitio web desarrollado desde cero con WordPress y Elementor, sin plantillas. Todo el diseño y funcionalidad fueron personalizados para cumplir con las necesidades específicas del proyecto."
     },
     {
         "id":2,
@@ -21,7 +23,8 @@
         "img_Proyect": "store.mauricorp.webp",
         "type": "B2B Woocommerce",
         "finish": false,
-        "url": false
+        "url": "/#",
+        "descripcion": "Tienda virtual B2B construida desde cero con WordPress y Elementor, sin el uso de plantillas. Se configuró el plugin B2B y actualmente está en proceso de carga de productos."
     },
     {
         "id":3,
@@ -29,7 +32,8 @@
         "img_Proyect": "adricapon.webp",
         "type": "Landing Page",
         "finish": false,
-        "url": false
+        "url": "/#",
+        "descripcion": "Página desarrollada desde cero utilizando WordPress y Elementor, sin plantillas. Se creó una identidad visual completa, incluyendo logo, tipografía y colores."
     },
     {
         "id":4,
@@ -37,7 +41,8 @@
         "img_Proyect": "mauricorp.webp",
         "type": "Corporate Website",
         "finish":true,
-        "url": "https://mauricorp.com"
+        "url": "https://mauricorp.com",
+        "descripcion": "Sitio web creado desde cero con WordPress y Elementor, sin el uso de plantillas. Todo el diseño y la funcionalidad fueron personalizados para satisfacer las necesidades del cliente."
     },
     {
         "id":5,
@@ -45,7 +50,8 @@
         "img_Proyect": "blog-del-rebobinador.webp",
         "type": "e-learning",
         "finish":true,
-        "url": "https://blogdelrebobinador.com"
+        "url": "https://blogdelrebobinador.com",
+        "descripcion": "Plataforma de e-learning desarrollada desde cero con WordPress y Elementor, sin el uso de plantillas. Se creó una identidad visual completa, incluyendo logo, tipografía y colores."
     },
     {
         "id":6,
@@ -53,6 +59,7 @@
         "img_Proyect": "travnow.webp",
         "type": "Landing Page",
         "finish":true,
-        "url": "https://projects.gabrielaaguilar.link/travnow/"
+        "url": "https://projects.gabrielaaguilar.link/travnow/",
+        "descripcion": "Página desarrollada desde cero utilizando WordPress y Elementor, sin plantillas. Todo el diseño y la funcionalidad fueron personalizados para cumplir con las necesidades específicas del proyecto."
     }
 ]

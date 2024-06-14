@@ -7,16 +7,27 @@
   justify-content: space-between;
   align-items: center;
   z-index: 30;
-  transition: background-color 0.3s, padding 0.3s;
+  transition: background-color 0.3s, padding 0.3s, transform 0.5s ease-in-out;
+  transform: translateY(0);
 }
 
 .sticky {
   background-color: rgba(255, 255, 255, 0.95);
-  padding: 16px 50px;
+  padding: 20px 100px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.show {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hide {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .Header_logo {
@@ -107,7 +118,7 @@
 
   .Header__a,
   .Header__buttonLanguage {
-    color: #fff!important;
+    color: #fff !important;
     font-size: 26px;
   }
 
