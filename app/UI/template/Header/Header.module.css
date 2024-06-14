@@ -7,11 +7,22 @@
   justify-content: space-between;
   align-items: center;
   z-index: 30;
+  transition: background-color 0.3s, padding 0.3s;
+}
+
+.sticky {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 16px 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .Header_logo {
   width: 60%;
 }
+
 .Header_links {
   width: 40%;
   font-weight: 300;
@@ -22,6 +33,7 @@
   align-items: center;
   justify-content: end;
 }
+
 .Header__a {
   cursor: pointer;
   color: var(--text-color);
@@ -34,15 +46,16 @@
   color: var(--text-color);
   font-size: 18px;
   cursor: pointer;
-
   font-weight: 300;
 }
+
 .Header__button {
   padding: 8px 18px;
   background-color: var(--text-color);
   color: #fff !important;
   border-radius: 99px;
 }
+
 .Header__mobile {
   display: none;
 }
@@ -75,7 +88,6 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    /* From https://css.glass */
     background: rgba(29, 28, 32, 0.93);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.8px);
@@ -91,39 +103,44 @@
     display: none;
     transition: 0.5s;
     z-index: 30;
-    
   }
 
   .Header__a,
   .Header__buttonLanguage {
     color: #fff!important;
     font-size: 26px;
-    
   }
+
   .Header__mobile {
     display: block;
   }
+
   .Header__span {
     display: flex;
     justify-content: end;
     align-items: center;
     cursor: pointer;
   }
+
   .Header__menuM {
     width: 23px;
     z-index: 30;
   }
+
   .Header__mobile {
     width: 40%;
   }
+
   .Header__button {
     color: #fff;
     background-color: var(--black);
   }
+
   .Header_linksMobile {
     display: flex;
     transition-duration: 3s;
   }
+
   .Header_linksMobileAnimate {
     right: 0;
     transition: 0.5s;
