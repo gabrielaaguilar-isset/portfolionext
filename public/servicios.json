@@ -1,0 +1,34 @@
+[
+    {
+        "img": "/sitio-web.webp",
+        "servicio": "Paginas Web"
+    },
+    {
+        "img": "/tiendaVirtual.webp",
+        "servicio": "Tiendas Virtuales"
+    },
+    {
+        "img": "/landingPge.webp",
+        "servicio": "Landing Page"
+    },
+    {
+        "img": "/mantenimiento.webp",
+        "servicio": "Mantenimiento"
+    },
+    {
+         "img": "/seo.webp",
+        "servicio": "SEO"
+    },
+    {
+        "img": "/flyers.webp",
+        "servicio": "Flyers"
+    },
+    {
+        "img": "/communityManager.webp",
+        "servicio": "Community Manager"
+    },
+    {
+        "img": "contentManager.webp",
+        "servicio": "Content Manager"
+    }
+]

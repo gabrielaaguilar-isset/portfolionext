@@ -1,0 +1,113 @@
+.ContactMe{
+    display: flex;
+    overflow: hidden;
+    margin: 100px 0; 
+}
+
+.ContactMe_textContain{
+    margin: auto;
+}
+
+.ContactMe_tittle{
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: -3px;
+    line-height: 84px;
+    color: var(--text-color);
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.ContactMe_button{
+    padding: 15px 24px 15px 15px;
+    border-radius: 100px;
+    border: 1px solid #E9DFFF;
+    font-weight: 300;
+    color: var(--main-color);
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: inherit;
+    margin-bottom: 15px;
+
+}
+.ContactMe_textContainTextoySub{
+    align-items: flex-start;
+}
+@media (max-width: 1440px){
+    .ContactMe_textContain{
+        width: 40%;
+    }
+    .ContactMe_ContainImgLeft{
+        width: 5%;
+
+    }
+    .ContactMe_ContainImgRigth{
+        width: 43%;
+
+    }
+    .ContactMe_IMGL{
+        width: 118px;
+    }
+    .ContactMe_IMGR{
+        width: 663px;
+    }
+}
+
+@media(max-width: 1024px){
+    .ContactMe_IMGL{
+        width: 99px;
+    }
+    .ContactMe_IMGR{
+        width: 554px;
+    }
+    .ContactMe_tittle{
+        font-size: 45px;
+        line-height: 38px;
+    }
+}
+@media (max-width: 768px){
+    .ContactMe_IMGL{
+        width: 68px;
+    }
+    .ContactMe_IMGR{
+        width: 446px;
+    }
+    .ContactMe_ContainImgRigth{
+        width: 33%;
+
+    }
+    .ContactMe_textContain{
+        width: 54%;
+    }
+}
+@media (max-width: 664px){
+    .ContactMe_ContainImgRigth{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+    }
+    .ContactMe_ContainImgLeft{
+        width: 15%;
+
+    }
+    .ContactMe_textContain{
+        width: 85%;
+    }
+    .ContactMe{
+        flex-wrap: wrap;
+        padding-right: 25px;
+    }
+    .ContactMe_IMGL {
+        width: 77px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 510px){
+    .ContactMe_IMGL {
+        width: 59px;
+
+    }
+}

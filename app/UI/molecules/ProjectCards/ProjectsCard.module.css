@@ -1,0 +1,75 @@
+.ProjectsCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(336px, 350px));
+    gap:36px;
+    margin: auto;
+    width:100%;
+    justify-content: center;
+    margin: 118px 0;
+
+ 
+}
+
+.ProjectsCards_item{
+    background-image: url("/tarjetastrabajos.svg");
+    background-size: cover;
+    backdrop-filter: blur(2.4px);
+-webkit-backdrop-filter: blur(2.4px);
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 10;
+
+
+}
+.ProjectsCards_item_ContainerImg{
+    display: flex; 
+    justify-content: center;
+}
+.ProjectsCards_img{
+    height: auto;
+    width: 271px;
+    width: 237px;
+    margin: auto;
+
+}
+
+.ProjectsCards_img{
+    margin: auto;
+}
+
+.ProjectsCards_h2{
+    font-size: 20px;
+    color: #fff; 
+    font-weight: 300;
+}
+
+.ProjectsCards_p{
+    font-size: 16px;
+    color: #fff; 
+    font-size: 200;
+}
+@media (max-width: 768px) {
+    .ProjectsCards{
+        margin: 55px 0;
+    
+    
+    }
+}
+@media(max-width: 452px){
+
+      .Portofolio_circulo {
+        width: 45%;
+    }
+}
+@media(max-width: 410px){
+    .ProjectsCards{
+        grid-template-columns: repeat(auto-fill, minmax(310px, 280px));
+        gap:16px;
+    }
+}
+
+@media (max-width: 367px){
+    .ProjectsCards{
+        grid-template-columns: repeat(auto-fill, minmax(280px, 250px));
+    }
+}

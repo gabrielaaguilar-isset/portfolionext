@@ -1,0 +1,106 @@
+
+.BannerOtherPages{
+    min-height: 700px;
+    margin-bottom: 100px;
+    padding: 0 0 25px 25px;
+    background-image: url(/banner-about.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.BannerOtherPages_saludo{
+    background: #F0F0F0;
+    padding: 7px 31px;
+    display: inline-block;
+    border-radius: 25px;
+    margin-bottom:25px;
+
+}
+
+.BannerOtherPages_saludo__p{
+    font-size: 20px;
+    font-weight: 200;  
+    margin: 0;
+   
+}
+.BannerOtherPages_titulo{
+    font-size: 60px;
+    font-weight: 500;
+    color: #0D0D12;
+    margin: 0;
+}
+.purpleTitle{
+    color: var(--main-color);
+}
+.BannerOtherPagesP{
+    margin-bottom: 35px;
+    padding: 0;
+    text-align: center;
+    width: 40%;
+}
+.whatsappButton{
+    background-color: #1D1C20;
+    color: #fff!important;
+    padding: 9px 31px;
+    border-radius: 25px; 
+    font-weight: 200;
+    font-size: 20px!important;
+}
+
+
+@media (max-width: 1440px){
+    .TitleBanner_titulo{
+        font-size: 53px;
+    
+    }
+ 
+}
+@media (max-width: 1042px){
+    .TitleBanner_titulo{
+        font-size: 43px;
+    
+    }
+    .TitleBanner_saludo__p{
+        font-size: 16px;
+       
+    }
+    .TitleBannerP{
+        font-size: 16px!important;
+    }
+    .whatsappButton{
+   
+        font-size: 16px!important;
+    }
+}
+@media (max-width: 768px){
+    .TitleBanner{
+        width: 100%;
+    }
+    .TitleBanner_titulo{
+        font-size: 35px;
+    
+    }
+    .TitleBanner_saludo{
+        margin-bottom: 12px;
+    }
+    .TitleBannerP{
+        padding: 0;
+    }
+}
+@media (max-width: 621px){
+    .BannerOtherPages{
+        background-image: url(/banner-aboutMobile.svg);
+        height: 835px;
+    }
+    .BannerOtherPages_titulo {
+        font-size: 47px;
+        text-align: center;
+    }
+}

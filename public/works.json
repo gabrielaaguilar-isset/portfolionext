@@ -1,0 +1,58 @@
+[
+    {
+        "id":0,
+        "nameProject": "Tubachi - Cooming soon",
+        "img_Proyect": "tubachi.webp",
+        "type": "Informative Website",
+        "finish": false,
+        "url": "https://tubachi.com"
+    },
+    {
+        "id":1,
+        "nameProject": "Dilo Club",
+        "img_Proyect": "dilo-club.webp",
+        "type": "Informative website",
+        "finish": false,
+        "url": "https://dilo.club"
+    },
+    {
+        "id":2,
+        "nameProject": "Store Mauricorp",
+        "img_Proyect": "store.mauricorp.webp",
+        "type": "B2B Woocommerce",
+        "finish": false,
+        "url": false
+    },
+    {
+        "id":3,
+        "nameProject": "Adri Capon - Cooming soon",
+        "img_Proyect": "adricapon.webp",
+        "type": "Landing Page",
+        "finish": false,
+        "url": false
+    },
+    {
+        "id":4,
+        "nameProject": "Mauri Corparation",
+        "img_Proyect": "mauricorp.webp",
+        "type": "Corporate Website",
+        "finish":true,
+        "url": "https://mauricorp.com"
+    },
+    {
+        "id":5,
+        "nameProject": "Blog del Rebobinador",
+        "img_Proyect": "blog-del-rebobinador.webp",
+        "type": "e-learning",
+        "finish":true,
+        "url": "https://blogdelrebobinador.com"
+    },
+    {
+        "id":6,
+        "nameProject": "Travnow",
+        "img_Proyect": "travnow.webp",
+        "type": "Landing Page",
+        "finish":true,
+        "url": "https://projects.gabrielaaguilar.link/travnow/"
+    }
+]

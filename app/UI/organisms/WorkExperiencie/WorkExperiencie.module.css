@@ -1,0 +1,15 @@
+.WorkExperiencie{
+    padding: 0 100px;
+    margin-bottom: 100px;
+ 
+}
+
+.WorkExperiencie_textoContainer{
+    align-items: flex-end;
+}
+@media (max-width: 768px){
+    .WorkExperiencie{
+        padding: 0 25px;
+        margin-bottom: 80px;
+    }
+}  

@@ -1,0 +1,15 @@
+.Certificados{
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+.Certificados_titleContainer{
+    align-items: flex-start;
+    margin-bottom: 43px;
+}
+
+@media (max-width: 768px){
+    .Certificados{
+        padding: 0 25px;
+        margin-bottom: 80px;
+    }
+}

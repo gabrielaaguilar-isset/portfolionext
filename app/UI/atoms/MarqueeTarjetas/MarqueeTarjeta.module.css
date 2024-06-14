@@ -1,0 +1,46 @@
+.MarqueeTarjeta{
+    padding: 5px 20px;
+    background-color: #862fe721;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+    
+
+
+.MarqueeTarjeta_text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #111827;
+}
+.MarqueeTarjeta_img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+@media(max-width: 768px){
+    .MarqueeTarjeta{
+        margin-right: 25px;
+    }
+}
+
+@media(max-width: 430px){
+    .MarqueeTarjeta{
+        margin-right: 12px;
+        padding: 5px 10px;
+    }
+    .MarqueeTarjeta_img{
+        width: 12px;
+        height: 12px;
+        margin: auto;
+    }
+    .rfm-overlay{
+        width: 20px!important;
+    }
+}

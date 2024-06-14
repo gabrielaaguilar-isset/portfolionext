@@ -1,0 +1,33 @@
+.TituloYSub{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.TituloYSub_sub{
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    text-aling: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.TituloYSub_tit{
+    color: #1D1C20;
+    font-size: 49px;
+    font-weight: 400;
+    margin: 16px  0 0 0 ;
+}
+
+@media(max-width: 768px){
+    .TituloYSub_sub{
+        font-size: 12px;
+    }
+    .TituloYSub_tit{
+        font-size: 29px;
+        margin: 10px  0 0 0 ;
+
+    }
+
+}

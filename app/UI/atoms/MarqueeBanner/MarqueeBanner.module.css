@@ -1,0 +1,39 @@
+.MarqueeBannerContainer{
+    background-color: inherit;
+    margin-top: 90px;
+    z-index: 1;
+    margin-top: 24px;
+}
+
+.MarqueeBanner__Item{
+    font-size: 20px;
+    color: #D8D8D8;
+    font-weight: 200;
+    margin:0 14px;
+    
+}
+@media (max-width: 1280px){
+    .MarqueeBannerContainer{
+        margin-top: -5px;
+    }
+    
+}
+@media (max-width: 1042px){
+    .MarqueeBanner__Item{
+        font-size: 16px!important;
+        margin:0 14px;
+        
+    }
+    
+}
+
+
+
+@media (max-width: 977px) {
+    .MarqueeBannerContainer{
+        margin-top: 6px;
+    }
+    .MarqueeBanner__Item{
+        margin:0 10px;  
+    }
+}

@@ -1,0 +1,17 @@
+.TitleAboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.TitleAboutMe_text{
+  text-align: center;  
+  width: 90%;
+}
+@media (max-width: 768px){
+    .TitleAboutMe_text{
+        width: 100%;
+        font-size: 16px;
+        text-align: justify;
+    }
+}

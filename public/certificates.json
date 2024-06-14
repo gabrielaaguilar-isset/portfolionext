@@ -1,0 +1,140 @@
+[
+    
+    {
+        "id": 2,
+        "name": "React: De cero a experto (Hooks y MERN )",
+        "company": "Udemy",
+        "id_credencial": "UC-6b12f72e-031c-4e9e-b946-7f61a5ede244",
+        "url": "https://www.udemy.com/certificate/UC-6b12f72e-031c-4e9e-b946-7f61a5ede244/",
+        "type": "Desarrollo web"
+    },
+    {
+        "id": 3,
+        "name": "Taller de Inglés Básico sobre los Miembros de la Familia",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Ingles"
+    },
+    {
+        "id": 4,
+        "name": "Taller de Inglés Básico sobre Elementos de Trabajo",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Ingles"
+    },
+    {
+        "id": 5,
+        "name": "Taller de Inglés Básico para Descripciones Personales",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Ingles"
+    },
+    {
+        "id": 6,
+        "name": "Taller de Inglés Básico sobre los Miembros de la Familia",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Ingles"
+    },
+    {
+        "id": 7,
+        "name": "Taller de Inglés Básico para Compras",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Ingles"
+    },
+    {
+        "id": 8,
+        "name": "Curso Práctico de PHP",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Desarrollo web"
+    },
+    {
+        "id": 9,
+        "name": "Curso Práctico de Frontend Developer",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Desarrollo web"
+    },
+    {
+        "id": 10,
+        "name": "JavaScript Moderno Guia Definitiva Construye +20 Proyectos ",
+        "company": "Udemy",
+        "id_credencial": "ID CREDENCIAL: UC-42004e08-0dcc-4cce-ab9f-13ced17ffd44",
+        "url": "https://www.udemy.com/certificate/UC-42004e08-0dcc-4cce-ab9f-13ced17ffd44/",
+        "type": "Desarrollo web"
+    },
+    {
+        "id": 11,
+        "name": "Curso de PHP con Composer",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Desarrollo web"
+    },
+    {
+        "id": 12,
+        "name": "Curso de PHP: Arreglos, Funciones y Estructuras de Control",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Desarrollo web"
+    },
+    {
+        "id": 13,
+        "name": "Curso de Inglés Básico A2: Preguntas y Respuestas Comunes",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Desarrollo web"
+    },
+    {
+        "id": 14,
+        "name": "Curso de Inglés Básico A2: Artículos y Verbos Modales ",
+        "company": "Platzi",
+        "id_credencial": "",
+        "url": "https://platzi.com/p/gabrielaangelaguilar/",
+        "type": "Ingles"
+    },
+    
+    {
+        "id": 11,
+        "name": "Curso de Introducción al Desarrollo web: HTML y CSS (2/2)",
+        "company": "Google",
+        "id_credencial": "ID CREDENCIAL:VSY JT7 42M ",
+        "url": "https://learndigital.withgoogle.com/activate/validate-certificate-code",
+        "type": "Desarrollo web"     
+    },
+    {
+        "id": 6,
+        "name": "[2021] Git y GitHub 100% Práctico",
+        "company": "Udemy",
+        "id_credencial": "ID CREDENCIAL: UC-0a82523f-c511-43bf-99bd-0ccb89775852",
+        "url": "https://www.udemy.com/certificate/UC-0a82523f-c511-43bf-99bd-0ccb89775852/",
+        "type": "Desarrollo web"           
+    },
+    {
+        "id": 7,
+        "name": "Competencias digitales para profesionales",
+        "company": "Google",
+        "id_credencial": "ID CREDENCIAL:  H3F UF5 FJZ ",
+        "url": "https://learndigital.withgoogle.com/activate/validate-certificate-code",
+        "type": "Desarrollo web"            
+    },
+    {
+        "id": 8,
+        "name": "Curso de Introducción al Desarrollo web: HTML y CSS (1/2) ",
+        "company": "Google",
+        "id_credencial": "ID CREDENCIAL: XYH PSU JAU ",
+        "url": "https://learndigital.withgoogle.com/activate/validate-certificate-code",
+        "type": "Desarrollo web"            
+    }
+]

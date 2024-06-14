@@ -1,0 +1,141 @@
+
+.ButtonContainer {
+    display: inline-block;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.SliderCursos__buttons {
+    padding: 8px 26px;
+    background: #efe4fc;
+    color: var(--text-color);
+    font-weight: 300;
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 50px;
+
+    font-size: 16px;
+}
+
+
+
+
+.SliderCursos_Container{
+    margin-top: 60px;
+    display: flex;
+    overflow: hidden;
+    padding: 1px;
+}
+.SliderCursos_ContainerButtons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.SliderCursos_cursosItems{
+    min-width: 316px;
+    max-width: 451px;
+    background: #efe4fc;
+    color: #000;
+
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 20px;
+    margin-right: 11px;
+    padding: 10px 15px;
+}
+
+.SliderCursos_cursosItems__tittle{
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.targetsSpan{
+    font-weight: 300;
+}
+.ButtonsCards{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+    margin-top: 20px;
+}
+.ButtonsCards img{
+    margin-top: -60px;
+    width: 104px;
+
+}
+.buttonAnterior{
+    transform: scaleX(-1);
+}
+.ButtonsCards button{
+    background-color: #ff000000;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.buttonActive {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+}
+.targetsSpanLink{
+    color: var(--main-color)!important;
+    font-weight: 300;
+}
+@media (max-width: 1440px){
+    .SliderCursos{
+        margin-top: -15px;
+    }
+   
+}
+
+@media (max-width: 1024px){
+    
+    .SliderCursos{
+       
+        margin-top: 9px;
+ 
+    }
+    .SliderCursos_cursosItems {
+        min-width: 365px;
+        margin-right: 14px;
+    }
+   
+}
+
+@media (max-width: 768px){
+    .SliderCursos_Container {
+        margin-top: 35px;
+    }
+    .SliderCursos__buttons {
+        margin-right: 15px;
+    }
+    .ButtonsCards {
+    padding-right: 0;
+    }
+    .SliderCursos_cursosItems {
+        padding: 1px 10px;
+    }
+    .ButtonsCards img {
+        margin: 25px 0 0 0;
+        width: 88px;
+    }
+    .SliderCursos_ContainerButtons{
+        gap: 9px;
+    }
+
+}
+@media (max-width: 425px){
+    .SliderCursos_cursosItems {
+        min-width: 335px;
+    }
+}
+
+@media (max-width: 389px){
+    .SliderCursos_cursosItems {
+        min-width: 320px;
+    }
+}

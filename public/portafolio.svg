@@ -1,0 +1,26 @@
+<svg width="1440" height="1285" viewBox="0 0 1440 1285" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_436_2553)">
+<rect x="-1" width="1441" height="1285" rx="50" fill="#030208"/>
+<path d="M106.5 -4.99512L93.7158 1239.01" stroke="#3E3E3E" stroke-dasharray="7 7"/>
+<path d="M107 264.5H1504" stroke="#3E3E3E" stroke-dasharray="7 7"/>
+<g filter="url(#filter0_f_436_2553)">
+<path d="M199 1154.71C199 1169.88 195.952 1184.88 190.051 1198.76C184.149 1212.64 175.523 1225.1 164.721 1235.34C153.919 1245.58 141.178 1253.38 127.309 1258.24C113.439 1263.1 98.7448 1264.91 84.1605 1263.57C69.5762 1262.23 55.4214 1257.76 42.5967 1250.44C29.772 1243.12 18.5582 1233.12 9.66888 1221.06C0.779527 1209.01 -5.59076 1195.18 -9.03665 1180.43C-12.4825 1165.69 -12.9286 1150.37 -10.3464 1135.44L93.5 1154.71H199Z" fill="url(#paint0_angular_436_2553)"/>
+<path d="M153.557 1167.68C153.557 1213.89 117.392 1251.35 72.7804 1251.35C28.1687 1251.35 -7.9962 1213.89 -7.9962 1167.68C-7.9962 1121.46 28.1687 1084 72.7804 1084C117.392 1084 153.557 1121.46 153.557 1167.68Z" fill="#8636F8"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_436_2553" x="-295" y="801" width="777" height="746" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="141.5" result="effect1_foregroundBlur_436_2553"/>
+</filter>
+<radialGradient id="paint0_angular_436_2553" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(93.5 1174) rotate(86.5867) scale(107.019 125.329)">
+<stop offset="0.164263" stop-color="#8636F8"/>
+<stop offset="0.685108" stop-color="#F6F056"/>
+<stop offset="1" stop-color="#FF00C1"/>
+</radialGradient>
+<clipPath id="clip0_436_2553">
+<rect width="1440" height="1285" rx="45" fill="white"/>
+</clipPath>
+</defs>
+</svg>

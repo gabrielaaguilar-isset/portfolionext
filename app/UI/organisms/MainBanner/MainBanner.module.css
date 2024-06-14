@@ -1,0 +1,22 @@
+.MainBanner{
+    min-height: 809px;
+    background-image: url("/banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+@media(max-width: 768px){
+    .MainBanner{
+        flex-direction: column;
+        padding: 80px 25px 20px 25px;
+        background-image: url(/bannerMovil.svg);
+        background-position: left;
+        margin-bottom: 80px;
+    }
+}

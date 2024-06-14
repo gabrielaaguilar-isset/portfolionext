@@ -1,0 +1,147 @@
+.Portofolio {
+  background-color: #030208;
+  background-repeat: no-repeat;
+  border-radius: 45px;
+  padding: 43px 100px;
+  background-size: cover;
+  overflow: hidden;
+  position: relative; /* Necesario para que el pseudo-elemento ::before funcione correctamente */
+}
+
+.Portofolio_ContainerTitle {
+  align-items: flex-start;
+  margin-top: 75px;
+}
+
+.Portofolio_subtitle,
+.Portofolio_content,
+.Portofolio_title {
+  margin-left: 70px;
+}
+
+.Portofolio_title {
+  color: #ffb800;
+}
+
+.Portofolio_subtitle,
+.Portofolio_content {
+  color: #fff;
+}
+
+.Portofolio_content {
+  width: 36%;
+}
+
+.Portofolio_ContainerTitulos_hr {
+  border: none;
+  height: 1px;
+  background: none;
+  position: relative;
+  width: 110%;
+}
+
+.Portofolio_ContainerTitulos_hr::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to right,
+    #3e3e3e,
+    #3e3e3e 7px,
+    transparent 7px,
+    transparent 14px
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Portofolio::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to bottom,
+    #3e3e3e,
+    #3e3e3e 7px,
+    transparent 7px,
+    transparent 14px
+  );
+  position: absolute;
+  top: 0;
+  left: 100px; /* Centra la línea vertical en el medio del contenedor */
+}
+.Portofolio_circulo {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  animation: girar 40s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Portofolio_luz {
+  position: absolute;
+  bottom: -230px;
+  left: -256px;
+  transform: rotate(316deg);
+}
+
+@media (max-width: 1204px) {
+  .Portofolio_content {
+    width: 56%;
+  }
+}
+@media (max-width: 1024px) {
+  .Portofolio_circulo {
+    top: 74px;
+    width: 35%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Portofolio {
+    padding: 0 25px;
+  }
+  .Portofolio::before {
+    left: 25px;
+  }
+  .Portofolio_subtitle,
+  .Portofolio_content,
+  .Portofolio_title {
+    margin-left: 0;
+  }
+  .Portofolio_ContainerTitle {
+    align-items: center;
+    width: 110%;
+  }
+
+  .Portofolio_content {
+    width: 100%;
+    text-align: center;
+  }
+  .Portofolio_ContainerTitulos{
+    align-items: center;
+  }
+  .Portofolio_circulo {
+    width: 40%;
+    top: 191px;
+  }
+  .Portofolio_ContainerTitle {
+    margin-top: 35px;
+  }
+}
+
+@media(max-width: 452px){
+    .Portofolio_luz {
+        width: 134%;
+      }
+}

@@ -1,0 +1,208 @@
+.Tarjetas {
+  display: grid;
+  margin-top: 85px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 223px 345px;
+  gap: 20px;
+  width: 40%;
+}
+
+.Tarjetas_principal {
+  background-image: url(/img-banner-negro.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 2; /* Ocupa ambas columnas */
+}
+.Tarjetas_yo {
+  background: #ded9d9;
+  z-index: 1;
+  overflow: hidden;
+}
+.Tarjetas_yo_purpleMitad {
+  background: var(--main-color);
+  width: 45%;
+  height: 100%;
+  margin-left: 55%;
+  border-radius: 0 25px 25px 0;
+  position: absolute;
+  top: 0;
+  rigth: 0;
+}
+.Tarjeta_yo__Chiquita {
+  margin: 21px 0 0 8px;
+}
+.Tarjeta_yo__Grande {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  width: 100%;
+}
+.Tarjetas_yo,
+.Tarjetas_otra {
+  border-radius: 25px;
+  position: relative; /* Añadir posición relativa para que el layout "fill" funcione correctamente */
+}
+
+.Tarjetas_otra {
+  background: #1d1c20;
+  padding: 130px 16px 34px 16px;
+}
+
+.Tarjetas_otraTexto {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.Tarjetas_otraContainerFlecha {
+  width: 50%;
+  height: 100%;
+}
+
+.Tarjetas_otra__flecha {
+  width: 122px;
+  position: absolute;
+  bottom: 34px;
+  left: 50%;
+}
+
+.purpleSpan {
+  color: var(--main-color);
+  font-weight: 300;
+}
+
+.Tarjetas_principal__texto {
+  font-size: 31px;
+  font-weight: 200;
+  color: #d8d8d8;
+}
+
+@media (max-width: 1440px) {
+  .Tarjetas {
+    width: 60%;
+  }
+}
+@media (max-width: 1371px) {
+  .Tarjetas {
+    width: 55%;
+  }
+  .Tarjetas_otra__flecha {
+    left: 42%;
+  }
+}
+@media (max-width: 1321px) {
+  .Tarjetas {
+    width: 50%;
+  }
+}
+@media (max-width: 1280px) {
+  .Tarjetas {
+    width: 45%;
+  }
+  .Tarjetas_otra__flecha {
+    left: 30%;
+  }
+ 
+  .Tarjetas_otra {
+    padding: 30px 16px 34px 16px;
+  }
+  .Tarjetas {
+    grid-template-rows: 170px 250px;
+  }
+}
+
+@media (max-width: 1226px) {
+  .Tarjetas {
+    width: 40%;
+    grid-template-rows: 170px 231px;
+  }
+  .Tarjeta_yo__Grande {
+    width: 89%;
+  }
+
+  .Tarjetas_otraTexto {
+    font-size: 18px;
+  }
+  .Tarjetas_otra__flecha {
+    width: 60px;
+    left: 50%;
+  }
+  .Tarjetas_principal__texto {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1042px) {
+  .Tarjetas_otraTexto {
+    font-size: 16px;
+  }
+  .Tarjetas_principal__texto {
+    font-size: 18px;
+  }
+  .Tarjeta_yo__Chiquita {
+    width: 40px !important;
+  }
+  .Tarjetas {
+    width: 50%;
+    grid-template-rows: 144px 201px;
+  }
+}
+@media (max-width: 977px) {
+  .Tarjetas {
+    gap: 10px;
+  }
+}
+
+
+
+@media(max-width: 768px){
+  .Tarjetas_principal{
+     grid-row: 2;
+  }
+  .Tarjetas{
+    width: 100%
+  }
+  .Tarjetas {
+    grid-template-rows: 202px 130px;
+  }
+  .Tarjeta_yo__Grande{
+    width: 179px;
+        left: 12%;
+  }
+}
+
+@media(max-width: 470px){
+  .Tarjeta_yo__Grande{
+
+        left: 8%;
+  }
+}
+@media(max-width: 432px){
+  .Tarjeta_yo__Grande{
+
+        left: 4%;
+  }
+}
+@media(max-width: 398px){
+  .Tarjeta_yo__Grande{
+
+    left: 1%;
+}
+}
+@media(max-width: 368px){
+  .Tarjeta_yo__Grande{
+
+    width: 150px;
+}
+}
+
+@media(max-width: 332px){
+  .Tarjeta_yo__Grande{
+    width: 150px;
+}
+}

@@ -1,0 +1,11 @@
+.AboutMe{
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px){
+    .AboutMe{
+        padding: 0 25px;
+        margin-bottom: 80px;
+    }
+}
