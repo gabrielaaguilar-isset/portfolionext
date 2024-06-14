@@ -35,7 +35,7 @@ export const Header = () => {
         <a href="/sobre-mi" className={styles.Header__a}>Sobre Mí</a>
         <a href="/#MyPortfolio" className={styles.Header__a}>Mi Portafolio</a>
         <button href="/#MyPortfolio" className={styles.Header__buttonLanguage} >English</button>
-        <Link href="/#" className={`${styles.Header__a} ${styles.Header__button} ` } target="_blank">Descargar Cv</Link>
+        <Link href="https://portfolionext-pi.vercel.app/curriculumVitaeGabrielaAguilar.pdf" className={`${styles.Header__a} ${styles.Header__button} ` } target="_blank">Descargar Cv</Link>
       </div>
       {
         menuMobile ? (
