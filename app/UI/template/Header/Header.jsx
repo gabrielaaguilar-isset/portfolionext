@@ -48,6 +48,7 @@ export const Header = () => {
 
   return (
     <>
+    <div className={styles.Header__DesarrolloAviso}>Pagina en Desarrollo</div>
       <header className={`${styles.Header} ${isSticky ? styles.sticky : ''} ${showHeader ? styles.show : styles.hide}`}>
         <div className={styles.Header_logo}>
           <Link href="/"> <img src='/gabrielaAg.svg' /></Link>
